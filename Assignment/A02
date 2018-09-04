@@ -1,10 +1,10 @@
 /*
 Course: CMPS 2143 - OOP
 Assignmet: AO2
-Purpose:
+Purpose: The program 
 
 @author Jason Okafor
-@version 8/31/18
+@version 9/4/18
 */
 
 #include <iostream>
@@ -52,8 +52,9 @@ class List
         Head = Tail = NULL;
         Size = 0;
     }
-    //it pushes back were the tail was but it was resign to
-    //a different position 
+    //Purpose: pushes back were the tail was but it resign to a different position
+    //Receives: int
+    //Return: nothing 
     void Push(int val)
     {
         // allocate new memory and init node
@@ -70,7 +71,9 @@ class List
         }
         Size++;
     }
-
+    //Purpose: it inserts a new node from the list 
+    //Receives: int 
+    //Return: nothing 
     void Insert(int val)
     {
         // allocate new memory and init node
@@ -85,13 +88,17 @@ class List
             Tail = Head;
         }
         Size++;
-    }
-
+    }   
+    //Purpose: it prints a new tail 
+    //Receives: nothing 
+    //Return: nothing 
     void PrintTail()
     {
         cout << Tail->x << endl;
     }
-
+    //Purpose: it prints a new string 
+    //Receives: nothing 
+    //Return: a list 
     string Print()
     {
         Node *Temp = Head;
@@ -112,7 +119,9 @@ class List
         Size--;
         return 0; //
     }
-
+    //Purpose: overloads plus a list together
+    //Receives: a list
+    //Return: new concatenated version of lists 
     List operator+(const List &Rhs)
     {
         // Create a new list that will contain both when done
