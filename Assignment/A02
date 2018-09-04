@@ -4,7 +4,7 @@
 * Purpose: The program manipulates or alternates the Array of elements
 *
 * @author Jason Okafor
-* @version 9/4/18
+* @version 1.1 9/4/18
 */
 
 #include <iostream>
