@@ -1,10 +1,10 @@
-/*
-Course: CMPS 2143 - OOP
-Assignmet: AO2
-Purpose: The program 
-
-@author Jason Okafor
-@version 9/4/18
+/**
+* Course: CMPS 2143 - OOP
+* Assignmet: AO2
+* Purpose: The program manipulates or alternates the Array of elements
+*
+* @author Jason Okafor
+* @version 9/4/18
 */
 
 #include <iostream>
@@ -52,9 +52,12 @@ class List
         Head = Tail = NULL;
         Size = 0;
     }
-    //Purpose: pushes back were the tail was but it resign to a different position
-    //Receives: int
-    //Return: nothing 
+   /**
+    * pushes back were the tail was but it resign to a different position 
+    *
+    * @param{int}
+    * @return{nothing}
+    */
     void Push(int val)
     {
         // allocate new memory and init node
@@ -71,9 +74,12 @@ class List
         }
         Size++;
     }
-    //Purpose: it inserts a new node from the list 
-    //Receives: int 
-    //Return: nothing 
+   /**
+    * it inserts a new node from the list
+    *
+    * @param{int}
+    * @return{nothing}
+    */
     void Insert(int val)
     {
         // allocate new memory and init node
@@ -89,16 +95,22 @@ class List
         }
         Size++;
     }   
-    //Purpose: it prints a new tail 
-    //Receives: nothing 
-    //Return: nothing 
+   /**
+    *  it prints a new tail 
+    *
+    * @param{nothing}
+    * @return{nothing}
+    */
     void PrintTail()
     {
         cout << Tail->x << endl;
     }
-    //Purpose: it prints a new string 
-    //Receives: nothing 
-    //Return: a list 
+   /**
+    * it prints a new string  
+    *
+    * @param{nothing}
+    * @return{a list}
+    */
     string Print()
     {
         Node *Temp = Head;
@@ -119,9 +131,12 @@ class List
         Size--;
         return 0; //
     }
-    //Purpose: overloads plus a list together
-    //Receives: a list
-    //Return: new concatenated version of lists 
+   /**
+    * overloads plus a list together 
+    *
+    * @param{list}
+    * @return{list} new concatenated version of lists 
+    */
     List operator+(const List &Rhs)
     {
         // Create a new list that will contain both when done
