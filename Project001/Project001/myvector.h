@@ -26,12 +26,12 @@ private:
 
 public:
 	//parameterized constructor 
-	myvector(int size);
+	myVector(int size);
 	void print();
 	//default constructor 
-	myvector();
+	myVector();
 	//destructor construtor 
-	~myvector();
+	~myVector();
 	//push method
 	void push_back(int item);
 	//pop method
