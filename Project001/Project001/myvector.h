@@ -11,7 +11,7 @@
 
 using namespace std;
 
-class myVector {
+class myvector {
 
 private:
 	//private attributes
@@ -26,12 +26,12 @@ private:
 
 public:
 	//parameterized constructor 
-	myVector(int size);
+	myvector(int size);
 	void print();
 	//default constructor 
-	myVector();
+	myvector();
 	//destructor construtor 
-	~myVector();
+	~myvector();
 	//push method
 	void push_back(int item);
 	//pop method
