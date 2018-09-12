@@ -7,7 +7,7 @@
 * @version 1.1 9/14/18
 */
 #include <iostream>
-#include "myVector.h"
+#include "myvector.h"
 
 using namespace std;
 
