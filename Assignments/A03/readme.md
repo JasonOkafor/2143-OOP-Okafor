@@ -6,8 +6,9 @@ CMPS 2143 - OOP
 
 9/28/18
 
-Class:
-![black](https://user-images.githubusercontent.com/42749823/46171406-0324db80-c266-11e8-88a8-874a6eea633a.jpg)
+Class: it is a user defined data type, which holds its own data members and member functions.
+![classes-and-objects-in-c](https://user-images.githubusercontent.com/42749823/46172530-55b3c700-c269-11e8-9e85-5c5f19c78fde.png)
+
 
 
 Object
