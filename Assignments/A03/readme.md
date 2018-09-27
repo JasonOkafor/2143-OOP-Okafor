@@ -11,7 +11,8 @@ Class: it is a user defined data type, which holds its own data members and memb
 
 
 
-Object
+Object: is an instance of a class. When a class is defined, no memory is allocated. 
+
 Method
 Abstraction
 Encapsulation
