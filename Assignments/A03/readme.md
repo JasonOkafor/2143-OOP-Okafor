@@ -16,6 +16,7 @@ Object: is an instance of a class. When a class is defined, no memory is allocat
 
 
 Method: is a member function of a class,and assoc with a message and an object.
+
 ![9679ceaf-0c2a-4209-8ed5-4b107ab1c634](https://user-images.githubusercontent.com/42749823/46173670-9103c500-c26c-11e8-8b60-a91636b11160.png)
 
 
