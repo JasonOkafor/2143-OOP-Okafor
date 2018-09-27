@@ -11,7 +11,9 @@ Class: it is a user defined data type, which holds its own data members and memb
 
 
 
-Object: is an instance of a class. When a class is defined, no memory is allocated. 
+Object: is an instance of a class. When a class is defined, no memory is allocated.
+![class-and-object](https://user-images.githubusercontent.com/42749823/46172939-81837c80-c26a-11e8-8883-e386c63db8bf.jpg)
+
 
 Method
 Abstraction
