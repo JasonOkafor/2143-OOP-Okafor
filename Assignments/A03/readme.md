@@ -15,7 +15,10 @@ Object: is an instance of a class. When a class is defined, no memory is allocat
 ![class-and-object](https://user-images.githubusercontent.com/42749823/46172939-81837c80-c26a-11e8-8883-e386c63db8bf.jpg)
 
 
-Method
+Method: is a member function of a class,and assoc with a message and an object.
+![9679ceaf-0c2a-4209-8ed5-4b107ab1c634](https://user-images.githubusercontent.com/42749823/46173670-9103c500-c26c-11e8-8b60-a91636b11160.png)
+
+
 Abstraction
 Encapsulation
 Polymorphism
