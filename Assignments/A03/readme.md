@@ -20,14 +20,24 @@ Method: is a member function of a class,and associated with a message and an obj
 ![9679ceaf-0c2a-4209-8ed5-4b107ab1c634](https://user-images.githubusercontent.com/42749823/46173670-9103c500-c26c-11e8-8b60-a91636b11160.png)
 
 
-Abstraction
-Encapsulation
-Polymorphism
-Overloading
-Attributes / Properties
-Class Variable
-Instance Variable
-Member Variable
-Inheritance
-Multiple Inheritance
-Composition
+Abstraction: displaying only essential information and hiding the details.
+
+Encapsulation: as binding together the data and the functions that manipulates them
+
+Polymorphism: a call to a member function will cause a different function to be executed depending on the type of object that invokes the function.
+
+Overloading: refers to the ability to use a single identifier to define multiple methods of a class that differ in their input and output parameters
+
+Attributes / Properties: an attribute is a specification that defines a property of an object, element, or file.
+
+Class Variable: is a variable defined in a class of which a single copy exists, regardless of how many instances of the class exist.
+
+Instance Variable: is a variable defined in a class (i.e. a member variable ), for which each instantiated object of the class has a separate copy, or instance. 
+
+Member Variable: 
+
+Inheritance:
+
+Multiple Inheritance:
+
+Composition:
