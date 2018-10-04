@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\jason\source\repos\gameofjesus\gameofjesus\main.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jason\source\repos\gameofjesus\gameofjesus\main.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jason\source\repos\gameofjesus\gameofjesus\main.cpp(65): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  GameofJesus.vcxproj -> C:\Users\jason\source\repos\GameofJesus\x64\Debug\GameofJesus.exe
+  GameofJesus.vcxproj -> C:\Users\jason\source\repos\GameofJesus\x64\Debug\GameofJesus.pdb (Partial PDB)
